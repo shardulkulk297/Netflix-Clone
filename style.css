@@ -142,3 +142,36 @@ nav button {
     align-items: center;
     gap: 20px;
 }
+
+.first
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+
+    color: white;
+
+}
+
+.secImg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.secImg{
+    position: relative;
+
+
+}
+
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    
+}
