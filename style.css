@@ -274,3 +274,40 @@ h2{
     
 
 }
+footer{
+    color: grey;
+    max-width: 80vw;
+    margin: auto;
+    padding: 40px;
+}
+
+.questions{
+    padding: 34px 0;
+
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:grey;
+    
+    
+
+}
+
+.footer a{
+    font-size: 14px;
+    color: grey
+}
+.questions a{
+    font-size: 14px;
+    color: grey
+}
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  
+
+}
