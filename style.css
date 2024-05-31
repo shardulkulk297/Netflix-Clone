@@ -37,7 +37,7 @@ nav {
     max-width: 80vw;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     height: 100px;
 
@@ -68,6 +68,9 @@ nav button {
     position: relative;
     gap: 23px;
     padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+   
 
 
 }
@@ -123,6 +126,20 @@ nav button {
 
 }
 
+@media screen and (max-width: 550px)
+{
+    .red-btn {
+        padding: 0px;
+        width: 100px;
+        font-size: 14px;
+        height: 40px;
+    
+
+        }
+        
+    
+}
+
 .btn-red-sm{
     background-color: red;
     color: white;
@@ -162,6 +179,24 @@ nav button {
 
 }
 
+@media screen and (max-width: 1004px){
+
+    .first{
+        flex-wrap: wrap;
+    }
+
+   
+    
+    
+}
+
+@media screen and (max-width: 1700px)
+{
+    .main{
+        background-size: max(1500px, 250vw);
+    }
+}
+
 
 
 .secImg {
@@ -187,7 +222,8 @@ nav button {
 .first > div {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 34px 0;
+
 }
 
 .first > div :first-child{
@@ -272,11 +308,40 @@ h2{
     
 }
 
+
+
 .below {
     margin: 30px auto;
     margin-bottom: 90px;
     
 
+}
+
+@media screen and (max-width: 800px)
+{
+    .belowbut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+        
+    
+    }
+
+    .below button{
+        padding: 0px;
+        width: 50px;
+        font-size: 10px;
+        height: 30px;
+
+    }
+
+    .below {
+        margin: 50px auto;
+        
+    }
+    
+    
 }
 footer{
     color: grey;
@@ -314,4 +379,26 @@ footer{
     gap: 23px;
   
 
+}
+
+@media screen and (max-width: 1100px)
+{
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        color:grey;
+        grid-gap: 29px;
+        
+        
+    
+    }
+
+    h2{
+        padding: 30px;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+
+    
 }
